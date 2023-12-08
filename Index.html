@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML CSS Note</title>
+</head>
+<body>
+    <h1>Basic HTML & CSS Crash Course</h1>
+    <div>
+        So you want to be a web developer? Here are some <b>must follow rules and principals</b> for you to succeed-<br>
+        <ul>
+            <li>daily 6-8 hours dedicated</li>
+            <li>module, conceptual, practice & support if done timely assignment will be peice of cake</li>
+            <li>Deadline is deadline. 2359 means 2359 not 0000. Assume deadline is 2200 and work accordingly. Projects & Mishaps don't come with previous instructions & warnings. Stay prepared</li>
+            <li>There is option for Resubmission. To build the habit of overdelivering. Your 1st submission might not be the best but it's your duty to deliver the better work.</li>
+            <li><s>7 steps of behavioral adjustment</s></li>
+            <li>Install VSCode, NodeJS & GitCSM. Open an account in github.</li>
+            <li>Get in the habit of Taking notes in your own language after a few minutes constantly.</li>
+            <li>Develop your rythm, get into a habit. Don't let exams and illnesses be a hurdle, eliminate them beforehand. must maintain your flow no matter what.</li>
+            <li>Write down what and why you want after 6 months. why you will give your fullest, why no compromise in effort?</li>
+            <li>Entertainment is necessary, but it's only for 1-2 hours. Don't make your life a circus.</li>
+            <li>You won't understanding everything in one go. But you WILL stick to the hussle no matter what.</li>
+        </ul>
+
+        <b>Now let's get started with the learning..</b>
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <h2>Basics of HTML</h2>
+        <p><h3>What is HTML?</h3><br>
+            HTML means hypertext markup language. You must've notice any website is mainly composed of texts. hypertext means you can connect texts internally and externally of any page by hyperlinking. <br>
+            markup means marked upped to do specied job. We can't write in normal word document format and expect our browsers to be able to read. Every new line, new paragraph, color of text and background, everything, and I truly mean <strong>EVERYTHING</strong> must be specified. We do it in a system that computers understand, using markup tags, thus markup langauge.
+        </p>
+        <img src="Images/1_7wzysqclJLByh6qT1yqAnQ.webp" alt="infographic of HTML element">
+        <p>
+            markup tags genarally start with two less than greater than signs (<>) with a tag name in between and ends with the same but a forward slash before the tag name. between these two opening and closing tags, stays the content. from opening to close is considered one element.
+        </p>
+        </div>
+
+        <br>
+        <br>
+
+        <div>
+        <p><h3>Let's look at some formatting tags;</h3>
+
+            <b>basics;</b><br>
+             for example to create paragraph we use element name "p" and to <b>bold</b> and <i>italicise</i> words we use "b" and "i". we can also use "strong" to <strong>strenghen</strong> a peice of content and "em" to <em>emphasise</em> a content. these two look similar to bold and italic but these two are semantic tags (more on that later). we can make words <big>big</big> or <small>small</small> using "big" & "small" tags. "u" to <u>underline</u> & "s" to <s>strikethrough</s>. <br>
+         </p>
+
+        <p><b>headlines;</b><br>
+
+        <h1 align="center">we</h1> 
+        <h2 align="center">can</h2> 
+        <h3 align="center">use</h3> 
+        <h4 align="center">headings</h4> 
+        <h5 align="center">of</h5> 
+        <h6 align="center">6 sizes</h6> 
+        by using "h1-h6" 
+        </p>
+
+        <p>
+            <b>lists;</b><br>
+
+            we can create a paragraph like element for list with "ul" or "ol" tags depending on if we want a unordered or ordered list. these also do the indenting work of list items. we can add list items with "li" tag. <br>
+            you can also list withing list items called nested items.
+        </p>
+
+        <p>
+            <b>containers;</b><br>
+
+             we use "div" and "span" as container tags. 1st one is block type and the 2nd one is inline. <br>
+            we use "br" to create a line break withing paragraph <br> like this.
+        </p>
+
+        <p>
+            <b>buttons;</b><br>
+
+             don't forget we can create <button>buttons</button> with "button" tag for various function.
+        </p>
+
+        <p>
+            <b>Websites are mainly composed of texts and <b>images</b>. So heres how you add images genarally;</b><br>
+
+            in "img" tag you mention the source in "src=''" the source can be local or from the net. you can use "alt" attribute too if you want to be accecibility friendly if for some reason viewing of the image is unavailable. Here's an image of a  kitty! <br>
+            <img src="Images/blaky.jpg" alt="image of a black cat"> <br>
+            no need for closing tag as image is a void or self closing tag just like the line break tag 'br'. 
+        </p>
+
+        <p>
+            <b>You are using HTML but don't know how to hyperlink texts?</b><br>
+
+             to hyperlink you need an anchor + hypertext reference. in the opening tag after "a" you add an space then the attribute "href='link'". the text content in between the tags act as the anchor for the link. <br>
+            <a href="https://www.w3schools.com/tags/ref_byfunc.asp"> Here is a link t HTML Element Reference - By Category </a>
+        </p>
+
+         <p>
+            <b>Imagine people are impressed with your work & wan't to hire you</b><br> 
+            It would be easier to connect with potential clients if you have a form in your webpage right? just use the "form" tag with mainly "select", "input" subtags & "placeholder" attributes. Heres a demo- 
+
+            <form action="/action_page.php" method="get">
+                <label for="name"></label>
+                <input type="text" id="name" name="your name" placeholder="your name:"><br>
+
+                <label for="email">your email:</label>
+                <input type="email" id="email" name="lname"><br>
+
+                <input type="submit" value="Submit">
+              </form>
+        </p>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        
+        <p>
+            <b>tips</b><br>
+
+           <li> ctrl+b closes sidebar</li>
+            <li>ctrl+s saves the current state of file (or activate autosave from "file")</li> 
+            <li>shift+1 to enter the html page structure, double tab to enter title, then single tab to enter body.</li>
+           <li> Alt+Shift+down copies any element.</li>
+            <li>ctrl+` or ctrl+j to open the VSCode Terminal.</li>
+            <li>ctrl+alt+p opens command pallate.</li>
+            <li>take live server link and put it in VScode simple browser for in app view.</li>
+            <li>ctrl+alt+right moves tab to right in side by side view.</li>
+        </p>
+        
+         <p>
+            <b>summery</b><br>
+
+            so far we have learned about inline tag, semantic tag, block tag, container tag  & void tag and some keyboard shortcuts.
+         </p>
+
+    </div>
+
+    <br>
+    <br>
+
+    <div>
+        <h2>Hey that's pretty neat page. It'd be quite bad if someone lays evil eye on it..</h2> 
+
+        Don't worry, we have <u>???</u> system. For that we <b>installed git</b> in our pc and opened an <b>account in github</b>. Now here's how you back up all your work: <br><br>
+
+        <h3>Creating a Repository:</h3>
+        Before we start backing up we must first create a storage unit right? Here's how we do it.
+        <ol>
+            <li>Create new repository > Create a new folder of the exact same name in C drive;</li>
+            <li>Open the folder in VSCode > New File > index.html > shift+1 > double tab and give a title;</li>
+            <li>ctrl+j</li>
+            <li>git init</li>
+            <li>git add .</li>
+            <li> git commit -m"first commit"<br>
+                On your very 1st repository setup you will get, "Author identity unknown... Run..". Then you will copy-paste the following messeges from the terminal and complete the registration step; 
+                <ol type="i">
+                    <li>git config --globaluser.email""</li>
+                    <li>git config --globaluser.name""</li>
+                </ol>
+            </li>
+            <li>git branch -M main</li>
+            <li>git remote add origin 'link'</li>
+            <li>git push -u origin main</li>
+        </ol>
+
+        Then we can see "index.html" as our first commit (every upload is called a commit). <br><br>
+
+        <h3>How to push new code:</h3>
+        We should push code after every few changes so that we don't lose any progress ever. Here's how;<br>
+        <ol>
+            <li>ctrl+j</li>
+            <li>git add .</li>
+            <li>git commit -m"messege relating to the new changes & this commit"</li>
+            <li>git push</li>
+        </ol>
+
+        And that's how you secure your work smartly!
+    </div>
+
+    <div>
+        <h3>How to do them from the mighty cmd:</h3>
+        <ul>
+            <li>Open cmd</li>
+            <li>check- "git --version" to know if you have git installed successfully in C</li>
+
+            <li>
+                If your git and projects are in the C directory (aren't in some exceptions);
+                <ul type="circle">
+                    <li>C:\Users\username>cd folder</li>
+                    <li>C:\Users\username\folder>cd repository</li>
+                    <li>C:\Users\username\folder\repository>git init </li>
+                    <li>Rest are same as before</li>
+                </ul>
+            </li>
+
+            <li>
+                If your folders and files are in another directory but git in C;
+                <ul type="circle">
+                    <li>C:\Users\username>cd D:</li>
+                    <li>D:\>cd folder</li>
+                    <li>D:\folder>cd repository</li>
+                    <li>D:\folder\repository>git init </li>
+                    <li>Rest are same as before</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Common errors:</h3>
+        <ul>
+            <li>Not checking if we are in the right directory & folder</li>
+            <li>Not respecting the command serial</li>
+            <li>Spelling & Capitalizaions errors</li>
+            <li>Not reading the fuking error messeges</li>
+        </ul>
+
+        <p>
+            <b>tips</b><br>
+
+             <li>
+                In the node icon (Source control, shortcut ctrl+shift+G) commit and undo options are present. 
+            </li>
+        </p>
+    </div>
+    
+</body>
+</html>
